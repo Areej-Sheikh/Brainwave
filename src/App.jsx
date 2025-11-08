@@ -1,6 +1,9 @@
-
 const App = () => {
-  return <div className="text-3xl font-bold underline">App</div>;
-}
+  return (
+    <div className="text-5xl font-bold  flex items-center justify-center h-screen">
+      APP
+    </div>
+  );
+};
 
-export default App
+export default App;
