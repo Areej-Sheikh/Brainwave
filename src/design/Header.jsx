@@ -1,5 +1,4 @@
-import React from "react";
-import background from "../assets/background.jpg";
+import { background } from "../assets";
 
 export const Rings = () => {
   return (
@@ -43,7 +42,9 @@ export const HamburgerMenu = () => {
       </div>
 
       <Rings />
+
       <SideLines />
+
       <BackgroundCircles />
     </div>
   );
